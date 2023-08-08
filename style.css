@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-family: Outfit;
+    font-size: 16px;
+}
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    max-width:1440px ;
+    width: 85%;
+    margin: 200px auto;
+}
+
+header {
+    background-image: url(/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card {
+    width: 35%;
+    margin: 0px auto;
+}
+
+.mainContent {
+    background-color:  hsl(225, 100%, 98%);
+    margin: 0px;
+    text-align: center;
+}
+
+.mainContent h2 {
+    padding: 25px 0px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.mainContent p {
+    text-align: center;
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+    width: 70%;
+    margin: 0px auto;
+}
+
+.mainContent button {
+    padding: 10px 25px;
+    width: 80%;
+    border: 0px;
+    border-radius: 25px;
+    margin: 25px auto;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+}
+
+.mainContent button:hover {
+    background-color: hsl(245, 69%, 65%);
+}
+
+.planInfo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainContent .cancelOrder {
+    padding: 15px 0px;
+}
+
+.mainContent .cancelOrder a:link {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.mainContent .cancelOrder a:hover {
+    color: hsl(223, 47%, 23%);
+} 
+
+.planInfo .planData {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 75px;
+}
+
+.planInfo .planData .musicIcon {
+    margin-right: 10px;
+}
+
+.planInfo .planData .planText {
+  font-weight: 100;
+}
+
+.planInfo .changePlan a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+@media screen and (max-width: 375px) {
+    
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+}
+
+#usableColors {
+    color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
+}
+
